@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+} 
+.link-header{
+    width:83px ;
+    height: 21px;
+    font-weight:400;
+    font-size:14px;
+    Line-height:21px;
+    text-align: center;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    
+}
+.button-header{
+background:#6FBF44;
+border-radius: 10px;
+width:124px;
+height: 51px;
+border: none;
+border-color: #4CB538;
+cursor:pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+}
+.img-logo{
+    width:596px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 123px;
+    display: inline-block;
+}
+div{
+    display:inline-block;
+    margin-left:85px;
+    width: 493px;
+
+}
+
+h1{
+    
+    font-weight:700 ;
+    font-size: 62px;
+    line-height: 82px;
+    color:#161A49;
+    letter-spacing: 0.5px;
+}
+p{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+.link-main{
+    width:112px ;
+    height: 27px;
+    font-weight:500;
+    font-size: 18px;
+    Line-height:27px;
+    color:#6FBF44;
+    cursor:pointer;
+    margin-top: 55px;
+    letter-spacing:1px;
+}
+
+@media screen and (max-width:740px){
+
+    header{
+        margin:17px 15px 0 284px;
+    }
+
+    .link-header{
+    display: none;
+
+}
+.button-header{
+    width: 91px;
+    height: 31px;
+    border-radius: 6px;
+    border:1px;
+}
+
+.img-logo{
+    width: 312px;
+    height: 288px;
+    margin:39px;
+    display:block;
+    position: absolute;
+    margin-top: 375px;
+}
+ 
+.caixa{
+    margin:124px 55px 59px 57px;
+    display:block;
+
+    
+}
+
+ h1{
+    height: 60px;
+    font-size:30px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    /* margin-top: 124px;
+    margin-bottom: 29px; */
+    
+}
+
+p{
+ height: 165px;
+ font-size: 18px;
+ line-height: 33px;
+ text-align: left;
+ letter-spacing: 0.5px;
+
+
+}
+
+a{
+   height: 27px;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 1px;
+  
+
+} 
+
+
+}
