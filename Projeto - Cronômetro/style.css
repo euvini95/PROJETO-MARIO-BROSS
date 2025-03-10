@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;    
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    background-color: #a9a9a9;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+h1{
+    box-shadow: 3px 3px  rgba(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 70px;
+    text-align: center;
+    color:white;
+}
+
+#cronometro{
+    font-size: 50px;
+    color:#000;
+    font-weight: 30px;    
+
+}
+
+.botoes button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor : pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botaoIniciar{
+    box-shadow: 2px 2px  rgba(0, 0, 0);
+    border: none;
+    background-color: #00d8ff;
+    color: #282c34;
+
+}
+
+#botaoPausar{
+    box-shadow: 2px 2px  rgba(0, 0, 0);
+    border: none;
+    background-color: #ffffa6;
+    color: #282c34;
+}
+#botaoResetar{
+    box-shadow: 2px 2px  rgba(0, 0, 0);
+    border: none;
+    background-color: #ff4b5c;
+    color: #282c34;
+
+}
+
+.botoes button:hover{
+    opacity: 0.8;
+
+}
+.botoes button:active{
+    transform: scale(1.1);
+}
